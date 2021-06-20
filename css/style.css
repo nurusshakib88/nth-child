@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+  background-color: darkcyan;
+  
+}
+h1, h2{
+  text-align: center;
+}
+
+.nth-child p:first-child {
+  background-color: palegreen;
+}
+.nth-child p:nth-child(2){
+  background-color: lightblue;
+
+}
+.nth-child p:nth-child(3){
+  background-color: purple;
+
+}
+.nth-child p:last-child {
+  background-color: darkcyan;
+}
+
+
+.nth-child2 p:nth-child(even) {
+  background: yellow;
+}
+
+.nth-child2 p:nth-child(odd) {
+  background: grey;
+}
+
